@@ -1,5 +1,6 @@
 # Sleep-Cycle-Calculator
 ![Sleep Cycle Calculator preview](https://i.ibb.co/hHzmdz5/sleep-cycle-calculator-preview.png)
+
 A small website me and my team made in 36 hours for Hack the North 2020!
 Calculates optimal bedtime/waking time using the 90 minute rule
 
