@@ -1,0 +1,59 @@
+html *
+{
+   font-family: Trebuchet MS !important;
+   text-align: center;
+}
+
+body {
+    background-color: rgb(125, 68, 216);
+}
+
+label{
+  /*instructions*/
+    color: white;
+}
+
+h1 {
+    color: white;
+    max-height: 300px;
+}
+
+li {
+  /*results*/
+    color: white;
+    word-spacing: 10px;
+}	
+
+#hour {
+    color: black;
+}
+
+#minute {
+    color: black;
+}
+
+table{
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+tr {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.small_text {
+	font-size: 80%;
+	color: grey;
+}
