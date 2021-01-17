@@ -11,10 +11,23 @@ function add_to_table(hour, minute, period, i) {
 	var text3 = (i + 1) + " sleep cycles";
 	cell.innerHTML = text1 + "<br><div class='small_text'>" + text2 + ', ' + text3 + "</div>";
 
-	buttonCell = row.insertCell(1);
-	buttonCell.innerHTML = "<button>Set Bedtime</button>";
-  var current_time = 
+	// buttonCell = row.insertCell(1);
+	// buttonCell.innerHTML = "<button>Set Bedtime</button>";
 }
+
+//button tasks: set alarm and then play sound at set time. maybe have a sound for bedtime, then wake time?
+
+//function setAlarm {
+   //function myFunction() {
+    //var d = new Date();
+    //var n = d.toLocaleTimeString();
+    //document.getElementById("demo").innerHTML = n;
+  //var Bedtime = d + (i + 1) * 1.5
+
+  //function play{...}
+  //setInterval (play, 1000);
+//}
+
 
 function calculate() {
     var hour = parseInt(document.getElementById("hour").value);
@@ -52,8 +65,8 @@ function calculate() {
             }
 
             add_to_table(hour, minute, period, i);
-        }
-    } else {
+		}
+	} else {
         document.getElementById("instruction").innerHTML = "Set your alarm to one of these times:";
 
         for (var i = 0; i < 16; i++) {
@@ -77,5 +90,5 @@ function calculate() {
 
             add_to_table(hour, minute, period, i);
         }
+       }
     }
-}
